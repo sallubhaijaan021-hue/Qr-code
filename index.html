@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Banner</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  overflow: hidden;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  object-fit: contain;
+}
+
+.contact {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+
+.contact a {
+  flex: 1;
+  text-align: center;
+  padding: 15px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.whatsapp {
+  background: #25D366;
+}
+
+.call {
+  background: #111;
+}
+</style>
+</head>
+
+<body>
+
+<img src="banner.jpg" class="banner" alt="Banner">
+
+<div class="contact">
+  <a class="whatsapp" href="https://wa.me/91XXXXXXXXXX" target="_blank">
+    WhatsApp
+  </a>
+  <a class="call" href="tel:918209763240">
+    Call
+  </a>
+</div>
+
+</body>
+</html>
